@@ -16,8 +16,6 @@ public class LoginTest extends BaseTest {
     public void pageSetUp() {
         loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
-
-        System.out.println("Izmena");
     }
 
     @Test
