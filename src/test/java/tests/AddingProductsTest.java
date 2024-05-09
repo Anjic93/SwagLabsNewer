@@ -57,7 +57,7 @@ public class AddingProductsTest extends BaseTest {
         productsPage.clickOnItemTitle();
 
         softAssert.assertEquals(driver.getCurrentUrl(), UrlConstants.SAUCE_LABS_BACKPACK_PAGE, "URL is not changed, page is not redirected");
-        removeButtonPresenceOnItemPageAssert(softAssert, itemInventoryPage );
+        removeButtonPresenceOnItemPageAssert(softAssert, itemInventoryPage);
     }
 }
 

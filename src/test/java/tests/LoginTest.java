@@ -2,7 +2,6 @@ package tests;
 
 import base.BaseTest;
 import helpers.LoginConstants;
-import helpers.SoftAssertions;
 import helpers.UrlConstants;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

@@ -12,8 +12,8 @@ import org.testng.asserts.SoftAssert;
 import pages.CartPage;
 import pages.LoginPage;
 import pages.ProductsPage;
+
 import static helpers.SoftAssertions.*;
-import static helpers.SoftAssertions.listWithItemsPresenceOnProductsPageAssert;
 
 public class CartSteps {
 

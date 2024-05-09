@@ -16,7 +16,7 @@ import java.io.IOException;
 public class AllureScreenshotListener extends BaseTest implements IInvokedMethodListener {
 
     @Override
-    public void afterInvocation (IInvokedMethod method, ITestResult testResult) {
+    public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         if (testResult.getStatus() == ITestResult.FAILURE || testResult.getStatus() == ITestResult.SKIP) {
             takeAndSaveScreenshot();
         }
