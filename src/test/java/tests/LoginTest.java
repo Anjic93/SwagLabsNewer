@@ -36,7 +36,6 @@ public class LoginTest extends BaseTest {
         presenceOfItemsListOnProductsPage(softAssert, productsPage);
         cartIconPresenceAssert(softAssert, productsPage);
     }
-
     @Test
     public void verifyThatUserCantLoginWithInvalidUsernameAndPassword() {
         loginPage.insertUsername(LoginConstants.INVALID_USERNAME);
