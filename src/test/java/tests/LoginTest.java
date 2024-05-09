@@ -35,6 +35,7 @@ public class LoginTest extends BaseTest {
         softAssert.assertEquals(driver.getCurrentUrl(), UrlConstants.PRODUCTS_PAGE_URL, "URL is not changed, page is not redirected");
         presenceOfItemsListOnProductsPage(softAssert, productsPage);
         cartIconPresenceAssert(softAssert, productsPage);
+
     }
     @Test
     public void verifyThatUserCantLoginWithInvalidUsernameAndPassword() {
