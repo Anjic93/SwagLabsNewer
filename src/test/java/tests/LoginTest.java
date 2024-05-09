@@ -16,6 +16,8 @@ public class LoginTest extends BaseTest {
     public void pageSetUp() {
         loginPage = new LoginPage(driver);
         productsPage = new ProductsPage(driver);
+
+        System.clickOnLoginButton;
     }
 
     @Test
